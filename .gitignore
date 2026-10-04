@@ -1,0 +1,28 @@
+# Generated builds and local verification
+/build/
+/saves/*.d64
+# Keep reproducible regression tests; ignore local SID scratch fixtures.
+/tests/sid-tone.*
+/tools/
+/run-sid-test.ps1
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Presentations, exports and scratch files
+/.presentation-build/
+/output/
+/tmp/
+*.zip
+*.log
+*.wav
+*.mp3
+
+# Editor and operating-system files
+*.code-workspace
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
